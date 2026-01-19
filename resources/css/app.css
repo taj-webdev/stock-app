@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbars & smooth transitions */
+body {
+    @apply bg-gray-100 text-gray-800 font-sans transition-colors duration-200;
+}
+
+.sidebar a.active {
+    @apply bg-primary text-white;
+}
+
+.sidebar a:hover {
+    @apply bg-primary/80 text-white;
+}
